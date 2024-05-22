@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+</head>        
+<body>
+     <form id="ageForm">
+        <label for="ageInput">Please enter your age:</label><br>
+        <input type="number" id="ageInput" name="ageInput" min="0"><b><b>
+        <button type="button" onclick="checkAge()">checkResult</button>
+
+    </form>    
+    <h1 id="result"></h1>
+    <h1 id="counter">0</h1>
+    <button onclick="increment()">+</button>
+    <button onclick="decrement()">-</button>
+    <p id="demo"></p>
+   
+
+    <form>
+        <label for="ageInput">Please Enter your age</label><br>
+        <input type="number" id="ageInput"><br><br>
+        <button type="button" onclick="checkAge()"> check 
+        Eligibility</button>
+    
+    </form>
+    <h1 id="result"></h1> 
+
+  
+        <label for="fullname">Enter your Name:</label><br>
+        <input type="text" id="fullname"><br><br>
+
+        <label for="track">Enter your track:
+        </label><br>
+        <input type="text" id="track"><br><br>
+        <button type="button"
+      onclick="displayMessage()"> submit </button>
+  
+
+    <h1 id="output"></h1>
+
+    <form>
+        <label for="month">Enter month Number(1-12)</label>
+        <input type="text" id="month">
+        <button type="button"
+        onclick="displayMessage(1-12)"> submit </button>
+
+    <h1 id="output"></h1>    
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
